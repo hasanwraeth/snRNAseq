@@ -73,11 +73,6 @@ HCLO.markers <- FindAllMarkers(HCLO, only.pos = TRUE, min.pct = 0.25,
 VlnPlot(HCLO, features = c("AFP"))
 RidgePlot(HCLO, features = c("AFP"))
 DotPlot(HCLO, features = c("ALB","FABP1","SOD1","DBI","GSS","ALDH1A2","GHR","HK1","WNT5A","HIF1A","GLS","CDH1","CPS1","HGD",'NFE2L2'))
-DotPlot(HCLO1, features = c('NXN','TMTC2'))
-#"COX7C","UBA52" IZ HB "FABP1","SOD1","DBI","HINT1","GSS"
-#PP "HMGCS1","SHISA9","DKK3","TET2","HGD",'NFE2L2','TBX3'
-#PC "AR","HK1","WNT5B","WNT5A","HIF1A",
-VlnPlot(HCLO, features = c("ALB","FABP1","SOD1","DBI","GSS","ALDH1A2","GHR","HK1","WNT5A","HIF1A","GLS","CDH1","CPS1","HGD",'NFE2L2'), slot = "counts", log = TRUE)
 FeaturePlot(HCLO, features = c("GSTA2"), order=T) #PAXBP1, TUT4 #ASGR1 #SULT1C2
 
 HCLO.markers %>%
