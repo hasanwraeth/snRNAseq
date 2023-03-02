@@ -55,14 +55,11 @@ HCLO <- ScoreJackStraw(HCLO, dims = 1:20)
 JackStrawPlot(HCLO, dims = 1:15)
 ElbowPlot(HCLO)
 
-HCLO <- FindNeighbors(HCLO, dims = 1:5)
+HCLO <- FindNeighbors(HCLO, dims = 1:15)
 HCLO <- FindClusters(HCLO, resolution = 0.5)
 head(Idents(HCLO), 5)
-HCLO <- RunUMAP(HCLO, dims = 1:5)
-#HCLO <- RenameIdents(HCLO,  '0'='M','1'='CV','2'='CV','3'='CV','4'='PP',
-#                     '6'='PP','7'='PP','5'='IZ','8'='IZ','0'='M')
-HCLO <- RenameIdents(HCLO,  'M'='Hepatoblasts','CV'='PeriCentral_Hepatocytes',
-                     'PP'='PeriPortal_Hepatocytes','IZ'='Interzonal_Hepatocytes')
+HCLO <- RunUMAP(HCLO, dims = 1:15)
+
                      
 DimPlot(HCLO, reduction = "umap")
 
@@ -144,8 +141,8 @@ DefaultAssay(hep.combined) <- "integrated"
 hep.combined <- ScaleData(hep.combined, verbose = FALSE)
 hep.combined <- RunPCA(hep.combined, npcs = 30, verbose = FALSE)
 #hep.combined <- RunHarmony(hep.combined, "sub_annotations")
-hep.combined <- RunUMAP(hep.combined, reduction = "pca", dims = 1:10)
-hep.combined <- FindNeighbors(hep.combined, reduction = "pca", dims = 1:10)
+hep.combined <- RunUMAP(hep.combined, reduction = "pca", dims = 1:15)
+hep.combined <- FindNeighbors(hep.combined, reduction = "pca", dims = 1:15)
 hep.combined <- FindClusters(hep.combined, resolution = 1) 
 #resolution 0.4 to 1.2 for 3k cells controls cluster no., higher for more cells
 
@@ -158,11 +155,7 @@ DimPlot(hep.combined, reduction = "umap", label = TRUE, repel = TRUE)
 FeaturePlot(hep.combined, features = c("APOC4")) #grey94, red, order =T
 
 DotPlot(hep.combined, features = c("ALDH1A2","GHR","HIF3A","GLS","CDH1","ALB"), group.by="sub_annotations")
-#hc=hep.combined
 
-#hc <- within(hc, sub_annotations[seurat_clusters=='0'] <- 'HCLO_CV')
-#hc <- transform(hc, sub_annotations = ifelse(seurat_clusters == 0, 'HCLO_CV', sub_annotations))
-hep.combined$sub_annotations[hep.combined$sub_annotations=="HCLO_Unidentified"]="HCLO_Hepatoblasts"
 
 
 #Monocle3-----------------
