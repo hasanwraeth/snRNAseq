@@ -263,7 +263,7 @@ dotplot(ego, showCategory = 20)
 #annodfM2=annodfM2[(annodfM2$feature %in% ent_gene$external_gene_name),]
 annodfM1=annodfM1[order( annodfM1[,1] ),]
 
-gl = (annodfM$logFC)
+gl = (annodfM1$logFC)
 names(gl)=ent_uni1
 gl=sort(gl, decreasing = T)
 gl = na.omit(gl)
@@ -275,7 +275,7 @@ kggl=gseGO(geneList=gl,
            nPerm = 10000, 
            minGSSize = 3, 
            maxGSSize = 800, 
-           pvalueCutoff = 0.9, 
+           pvalueCutoff = 0.05, 
            verbose = TRUE, 
            OrgDb = org.Hs.eg.db, 
            pAdjustMethod = "BY")
