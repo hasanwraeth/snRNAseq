@@ -1,5 +1,8 @@
 # snRNAseq
 
+![Status](https://img.shields.io/badge/status-alpha-red)
+![DOI](https://img.shields.io/badge/DOI-in__progress-blue)
+
 snRNAseq analysis using STARsolo and Alevin-fry.
 
 <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/UMAP.png" width="500" height="500">
