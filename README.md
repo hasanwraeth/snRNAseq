@@ -6,7 +6,7 @@
 snRNAseq analysis using STARsolo and Alevin-fry.
 
 <figure>
-    <div class="caption" align='center'>UMAP of HCLO snRNAseq</div>
+    <div class="caption">UMAP of HCLO snRNAseq</div>
     <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/UMAP.png" width="500" height="500" align='center'>
 </figure>
 
