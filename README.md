@@ -25,9 +25,9 @@ snRNAseq analysis using STARsolo and Alevin-fry.
     <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/cellchat_heat.png" width="750" height="500">
 </figure>
 
-CellChat Heatmap           |  
-:-------------------------:|
-![](https://github.com/hasanwraeth/snRNAseq/blob/main/cellchat_heat.png)  | 
+CellChat Heatmap           
+:-------------------------:
+![](https://github.com/hasanwraeth/snRNAseq/blob/main/cellchat_heat.png)
 
 PTN Circle Plot             |  FGF cord plot
 :-------------------------:|:-------------------------:
