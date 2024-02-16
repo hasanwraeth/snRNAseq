@@ -36,6 +36,8 @@ snRNAseq analysis using STARsolo and Alevin-fry.
     </figure>
 </p>
 
-
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://github.com/hasanwraeth/snRNAseq/blob/main/PTN.png)  |  ![](https://github.com/hasanwraeth/snRNAseq/blob/main/FGF.png)
 
 
