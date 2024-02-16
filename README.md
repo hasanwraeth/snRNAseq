@@ -25,16 +25,16 @@ snRNAseq analysis using STARsolo and Alevin-fry.
     <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/cellchat_heat.png" width="750" height="500">
 </figure>
 
-<figure>
-    <div class="caption">CellChat heatmap</div>
-    <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/PTN.png" width="500" height="375">
-</figure>
-
-<figure>
-    <div class="caption">CellChat heatmap</div>
-    <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/FGF.png" width="500" height="375">
-</figure>
-
+<p float="left">
+    <figure>
+        <div class="caption">CellChat heatmap</div>
+        <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/PTN.png" width="500" height="375">
+    </figure>
+    <figure>
+        <div class="caption">CellChat heatmap</div>
+        <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/FGF.png" width="500" height="375">
+    </figure>
+</p>
 
 
 
