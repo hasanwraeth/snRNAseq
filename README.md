@@ -29,13 +29,13 @@ snRNAseq analysis using STARsolo and Alevin-fry.
   <div class="column">
     <figure>
     <div class="caption">PTN circle plot</div>
-    <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/PTN.png" width="750" height="500" style="width:100%">
+    <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/PTN.png" style="width:100%">
     </figure>
   </div>
   <div class="column">
     <figure>
     <div class="caption">FGF cord plot</div>
-    <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/FGF.png" width="750" height="500" style="width:100%">
+    <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/FGF.png" style="width:100%">
     </figure>
   </div>
 </div>
