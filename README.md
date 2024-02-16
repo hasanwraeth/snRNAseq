@@ -7,7 +7,7 @@ snRNAseq analysis using STARsolo and Alevin-fry.
 
 <figure>
     <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/UMAP.png" width="500" height="500">
-    <div class="caption">UMAP of HCLO snRNAseq</div>
+    <div class="caption" align='center'>UMAP of HCLO snRNAseq</div>
 </figure>
 
 <img src="https://github.com/hasanwraeth/snRNAseq/blob/main/Pseudotime_m3.png" width="500" height="500">
