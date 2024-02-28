@@ -11,7 +11,7 @@ UMAP of HCLO snRNAseq      | Pseudotime analysis using Monocle3
 
 Stream plot using scvelo         
 :-------------------------:
-![](https://github.com/hasanwraeth/snRNAseq/blob/main/scvelo_embedding_stream.png)
+![](https://github.com/hasanwraeth/snRNAseq/blob/main/stream.jpg)
 
 CellChat Heatmap           
 :-------------------------:
