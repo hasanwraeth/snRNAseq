@@ -5,13 +5,9 @@
 
 snRNAseq analysis using STARsolo and Alevin-fry.
 
-UMAP of HCLO snRNAseq        
-:-------------------------:
-![](https://github.com/hasanwraeth/snRNAseq/blob/main/UMAP.png)
-
-Pseudotime analysis using Monocle3       
-:-------------------------:
-![](https://github.com/hasanwraeth/snRNAseq/blob/main/Pseudotime_m3.png)
+UMAP of HCLO snRNAseq      | Pseudotime analysis using Monocle3    
+:-------------------------:|:-------------------------:
+![](https://github.com/hasanwraeth/snRNAseq/blob/main/UMAP.png)  |  ![](https://github.com/hasanwraeth/snRNAseq/blob/main/Pseudotime_m3.png)
 
 Stream plot using scvelo         
 :-------------------------:
