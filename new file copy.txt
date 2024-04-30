@@ -1,0 +1,8 @@
+use conda activate velor for RNA velocity 
+cellrank breaks in python > v3.10 (use v3.9)
+
+
+velocyto requires gcc to install
+use brew list gcc to get gcc location
+
+Sub = subset(HCLO, subset=time == c('1','2'))
